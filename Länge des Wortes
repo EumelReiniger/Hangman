@@ -1,0 +1,4 @@
+text = input("Gib einen Satz ein: ")
+words = text.split()
+new_text = ' '.join(['_ ' * len(word) for word in words])
+print(new_text)
